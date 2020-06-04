@@ -10,7 +10,7 @@ $(document).ready(function() {
     }
   })
   const chooseAnimal = prompt("Do you want to learn about giraffes, koalas, or killer whales?");
-   if (chooseAnimal !== null) {
+   if (chooseAnimal) {
      showAnimalInfo(chooseAnimal.toLowerCase());
     } else {
       alert("We weren\'t sure which animal you wanted to learn more about. Click on a photo to learn more.");
