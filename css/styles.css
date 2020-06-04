@@ -6,3 +6,7 @@ img {
 .hidden {
   display: none;
 }
+
+.animal-info {
+  padding-bottom: 10px;
+}
